@@ -9,5 +9,10 @@
   gap: 12px;
   margin-top: 12px;
   height: 30px;
-  background: red;
+  background: rgb(255, 212, 18);
+}
+input a {
+   margin-top: 12px;
+   justify-content: left;
+   
 }
