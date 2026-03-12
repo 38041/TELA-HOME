@@ -1,18 +1,22 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: auto;   /*espaço fora*/
+  padding: 0;   /*espaço interno*/
+  box-sizing: border-box;  /*tamanho de largura e altura*/
+  font-family: Arial, Arial, Helvetica, sans-serif;
 }
 .container {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 12px;
-  height: 30px;
-  background: rgb(255, 212, 18);
+  display: flex;  /*lado a lado, centralizado*/
+  justify-content: center;  /*centralizar horizontalmente*/
+  gap: 12px;    /*criar espaçamento entre elementos*/
+  margin-top: 12px;   /*espaço acima de um elemento*/
+  height: 30px;    /*tamanho vertical*/
+  background: rgb(34, 18, 255);
 }
-input a {
+input {
+   padding: 4px;
+   width: 30%;  /*largura horizontal*/
    margin-top: 12px;
    justify-content: left;
-   
+   float: right ;
+   margin: 10px;
 }
